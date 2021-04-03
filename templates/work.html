@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chikitsak</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="{% static '/images/logo/crop-logo.png' %}" />
+
+    <link rel="stylesheet" href="{% static '/css/style.css' %}">
+
+</head>
+<style>
+    .gif {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60vw;
+        margin: 0 auto;
+        height: 100vh;
+    }
+
+    @media screen and (max-width: 600px) {
+        .gif img {
+            height: 30vh;
+        }
+    }
+</style>
+
+<body>
+
+    <!-- header -->
+    <header>
+        <div class="logo">
+            <a class="logo" href="/">
+                <div class="logo-image">
+                    <img class="i-1" src="{% static '/images/logo/logoji.JPG' %}" alt="image">
+                    <p>Chikitsak</p>
+            </a>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        </div>
+
+        <!-- nav-bar -->
+        <nav>
+            <ul class="nav-ul nav-display">
+                <li><a class="f-nav active" href="/about">About us</a></li>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/work">Pages</a></li>
+                <li><a class="btn-nav" href="/work">Save my spot</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="gif">
+
+        <img src="{% static '/images/GIF/work under progress.gif' %}" alt="">
+    </div>
+
+    <!-- footer section -->
+    <footer>
+        <div class="container f-section">
+            <section class="f1">
+
+                <div class="f-image">
+
+                    <img class="i-1" src="{% static '/images/logo/logoji.JPG' %}" alt="image">
+                </div>
+                <div class="f-content">
+                    <p class="small-text">STAY INFORMED</p>
+                    <p class="supporting-text">Receive news, articles and events by email to stay informed of progress.
+                    </p>
+                    <input type="text" name="" id="" placeholder="Email address">
+                    <div class="links">
+                        <ul class="footer-ul">
+                            <li><a href="/work">About us </a></li>
+                            <li><a href="/work">Contact us</a></li>
+                            <li><a href="/work">Pages</a></li>
+                            <li><a href="/blog">Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </section>
+            <a href="/blog">
+                <section class="f2">
+                    <div class="b-sample">
+                        <p class="small-text">FEATURED POST</p>
+                        <img src="{% static '/images/assests/blog-photo.png' %}" alt="image">
+                        <h2>Collaboration in healthcare: much more than faxes and phone calls!</h2>
+                        <p class="supporting-text">What first comes to mind when we speak of interprofessional
+                            collaboration
+                            is a group of
+                            healthcare professionals coming together to talk about a common patient.</p>
+                    </div>
+                    <div class="author">
+                        <div>
+
+                            <img src="{% static '/images/assests/blog-user.png' %}" alt="image">
+                        </div>
+                        <div class="a-info">
+                            <p>Sanjana Agarwal</p>
+                            <p>20 October 2020</p>
+                        </div>
+                    </div>
+                </section>
+            </a>
+            <div class="copy">
+                <div class="c-text">
+                    Copyrights &#169 2020 Chikitsak
+                </div>
+                <div class="media">
+                    <a target="_blank" href="https://www.instagram.com/chikitsak.health/">
+
+                        <img src="{% static '/images/social-logo/1.svg' %}" alt="">
+                    </a>
+                    <a target="_blank" href="https://twitter.com/Chikitsakhealth">
+                        <img src="{% static '/images/social-logo/2.svg' %}" alt="">
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/company/chikitsakhealth">
+
+                        <img src="{% static '/images/social-logo/3.svg' %}" alt="">
+                    </a>
+                    <a target="_blank" href="https://www.facebook.com/chikitsak.org">
+
+                        <img src="{% static '/images/social-logo/4.svg' %}" alt="">
+                    </a>
+                    <a href="">
+
+                        <img src="{% static '/images/social-logo/5.svg' %}" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </footer>
+
+    </div>
+
+
+</body>
+<script src="{% static '/js/script.js' %}"></script>
+
+</body>
+
+</html>

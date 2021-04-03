@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% load static %}
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Chikitsak</title>
+    <link rel="shortcut icon" type="image/x-icon" href="{% static '/images/logo/crop-logo.png' %}" />
+    <link rel="stylesheet" href="{% static '/css/style.css' %}">
+    <link rel="stylesheet" href="{% static '/css/about.css' %}">
+
+</head>
+
+<body>
+
+    <!-- header -->
+    <header>
+        <div class="logo">
+            <a class="logo" href="/">
+                <div class="logo-image">
+                    <img class="i-1" src="{% static '/images/logo/logoji.JPG' %}" alt="image">
+                    <p>Chikitsak</p>
+            </a>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        </div>
+
+        <!-- nav-bar -->
+        <nav>
+            <ul class="nav-ul nav-display">
+                <li><a class="f-nav active" href="#">About us</a></li>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/work">Pages</a></li>
+                <li><a class="btn-nav" href="/work">Save my spot</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- main section of about -->
+    <section class="about-main">
+
+        <!-- mission container -->
+        <section class="about-mission">
+            <div class="ab-1">
+
+
+                <p class="a-small-text">OUR MISSION</p>
+                <p class="a-heading a-mission-heading">Break down all barriers, a more accessible healthcare.</p>
+                <p class="a-text a-mission-text">
+                    Technology allows you to be close to your loved ones, no matter where you are. In the healthcare
+                    field,
+                    it
+                    should similarly make patients, caregivers, survivors and healthcare professionals to connect and
+                    collaborate with each others.
+                </p>
+            </div>
+            <div class="ab-2">
+
+            </div>
+        </section>
+
+        <!-- approach container -->
+
+        <section class="a-approach">
+            <div class="a-image">
+
+                <img src="{% static '/images/about/about-acton.png' %}" alt="image">
+            </div>
+            <div class="a-content">
+                <p class="a-heading">An open approach</p>
+                <p class="a-text">
+                    At the heart of our approach is our dedication to sharing the leadership of the change we're
+                    bringing
+                    forward. This comes down to involving the healthcare community within our development cycle.
+                </p>
+                <p class="a-text">
+                    So we organize co-creation events with the very actors in the field. We cooperate with all those who
+                    are hands-on improving our system. We have the courage to do things differently.
+                </p>
+            </div>
+        </section>
+
+        <!-- values container -->
+        <section class="a-values">
+            <p class="a-heading">Our Values</p>
+            <div class="a-value-grid">
+
+                <div class="a-value-card">
+                    <h4 class="a-name">Collaboration</h4>
+                    <p class="a-text">
+                        We involve the key stakeholders of the healthcare industry.
+                    </p>
+                </div>
+                <div class="a-value-card">
+                    <h4 class="a-name">Boldness</h4>
+                    <p class="a-value">
+                        We choose the path of innovation, even if it's not the shortest.
+                    </p>
+                </div>
+                <div class="a-value-card">
+                    <h4 class="a-name">Transparencys</h4>
+                    <p class="a-text">
+                        We share our insights and approach without any limitations.
+                    </p>
+                </div>
+                <div class="a-value-card">
+                    <h4 class="a-name">Open mindedness</h4>
+                    <p class="a-text">
+                        We challenge ourselves in order to progress.
+                    </p>
+                </div>
+                <div class="a-value-card">
+                    <h4 class="a-name">Empathy</h4>
+                    <p class="a-text">
+                        We try to understand others before anything else.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- founder container -->
+        <section class="founders">
+            <div class="fon-1">
+
+                <p class="a-heading">Our founders</p>
+            </div>
+            <div class="fon-2">
+
+                <div class="founder-card">
+
+                    <img class="founder-photo" src=" {% static '/images/about/profile.png' %}" alt="image">
+                    <p class="a-name">
+                        Saurabh Singh Bhadoriya
+                    </p>
+
+
+                    <div class="founder-linkedin-logo">
+                        <p class="a-role">
+                            CEO
+                        </p>
+                        <a target="_blank" href="https://www.linkedin.com/in/saurabh-singh-bhadoriya-186629103/">
+
+                            <img src=" {% static '/images/social-logo/3.svg' %} " alt="">
+
+                        </a>
+                    </div>
+
+
+
+                    <p class="a-text founder-info">
+                        Barely a day after completing his master's degree in Physics, Saurabh began to learn to code
+                        in
+                        order to work on an idea he long wanted to work for.
+                    </p>
+                    <p class="a-text founder-info">
+                        Passionate about human beings and a bit idealistic, he nourishes his motivation thanks to his
+                        vision
+                        of a more collaborative healthcare system!
+
+                    </p>
+                    <p>
+                        Email: Saurabh@chikitsak.health
+                    </p>
+                </div>
+                <div class="founder-card">
+                    <img class="founder-photo" src="{% static '/images/about/profile.png' %}" alt="image">
+                    <p class="a-name">
+                        You can be here
+                    </p>
+                    <p class="a-role">
+                        CTO/CMO
+                    </p>
+
+                    <p class="a-text founder-info">
+                        Stack
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi cumque, distinctio aliquam a
+                        magnam vero repudiandae nesciunt nihil doloremque voluptate.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- team container -->
+
+        <section class="team">
+            <div class="t1">
+                <p class="a-heading">Our team </p>
+
+            </div>
+            <div class="t2">
+                <div class="team-card">
+
+                    <img src="{% static '/images/about/profile.png' %}" alt="image">
+
+                    <p class="a-name">Your name could be here</p>
+                    <p class="role">Software developer</p>
+                    <p class="a-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi vitae hic esse
+                        assumenda accusamus commodi! Repellat aperiam voluptatum labore totam!</p>
+                </div>
+                <div class="team-card">
+                    <img src="{% static '/images/about/profile.png' %}" alt="image">
+                    <p class="a-name">Your name could be here</p>
+                    <p class="role">Software developer</p>
+                    <p class="a-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi vitae hic esse
+                        assumenda accusamus commodi! Repellat aperiam voluptatum labore totam!</p>
+                </div>
+                <div class="team-card">
+                    <img src="{% static '/images/about/profile.png' %}" alt="image">
+                    <p class="a-name">Your name could be here</p>
+                    <p class="role">Designer</p>
+                    <p class="a-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi vitae hic esse
+                        assumenda accusamus commodi! Repellat aperiam voluptatum labore totam!</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- advisors container -->
+        <section class="advisors">
+            <div class="a1">
+                <p class="a-heading">
+                    Our advisors
+                </p>
+            </div>
+            <div class="a2">
+                <div class="advisor-card">
+                    <img class="rony-sir-img" src="{% static '/images/about/2.png' %}" alt="image">
+                    <p class="a-name">Rony Banerjee</p>
+                    <p class="a-text">Storyteller | Cancer Activist | Founder: Kahanighar | Design Thinking -IIM
+                        Ahmedabad | Design Theory - NIFT </p>
+                </div>
+
+                <div class="advisor-card">
+                    <img src="{% static '/images/about/3.png' %}" alt="image">
+                    <p class="a-name">Jubin Mehta</p>
+                    <p class="a-text">ex-YourStory Founder-Saadho</p>
+                </div>
+            </div>
+        </section>
+
+    </section>
+
+
+
+    <!-- l-action last second container -->
+    <section class="l-second">
+        <div class="l-image">
+
+        </div>
+        <div class="container">
+
+            <h1 class="heading-text">For patients and Caregivers to never feel less-informed & alone again.</h1>
+            <div class="bn">
+                <button class="btn-main">
+                    Save my spot
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <footer>
+        <div class="container f-section">
+            <section class="f1">
+
+                <div class="f-image">
+
+                    <img class="i-1" src="{% static '/images/logo/logoji.JPG' %}" alt="image">
+                </div>
+                <div class="f-content">
+                    <p class="small-text">STAY INFORMED</p>
+                    <p class="supporting-text">Receive news, articles and events by email to stay informed of progress.
+                    </p>
+                    <input type="text" name="" id="" placeholder="Email address">
+                    <div class="links">
+                        <ul class="footer-ul">
+                            <li><a href="#">About us </a></li>
+                            <li><a href="/work">Contact us</a></li>
+                            <li><a href="/work">Pages</a></li>
+                            <li><a href="/blog">Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </section>
+            <a href="./blog">
+                <section class="f2">
+                    <div class="b-sample">
+                        <p class="small-text">FEATURED POST</p>
+
+                        <img src="{% static '/images/assests/blog-photo.png' %}" alt="image">
+                        <h2>Collaboration in healthcare: much more than faxes and phone calls!</h2>
+                        <p class="supporting-text">What first comes to mind when we speak of interprofessional
+                            collaboration
+                            is a group of
+                            healthcare professionals coming together to talk about a common patient.</p>
+                    </div>
+                    <div class="author">
+                        <div>
+                            <img src="{% static '/images/assests/blog-user.png' %}" alt="image">
+                        </div>
+                        <div class="a-info">
+                            <p>Sanjana Agarwal</p>
+                            <p>20 October 2020</p>
+                        </div>
+                    </div>
+                </section>
+            </a>
+            <div class="copy">
+                <div class="c-text">
+                    Copyrights &#169 2020 Chikitsak
+                </div>
+                <div class="media">
+                    <a target="_blank" href="https://www.instagram.com/chikitsak.health/">
+
+                        <img src="{% static '/images/social-logo/1.svg' %}" alt="">
+                    </a>
+                    <a target="_blank" href="https://twitter.com/Chikitsakhealth">
+                        <img src="{% static '/images/social-logo/2.svg' %}" alt="">
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/company/chikitsakhealth">
+
+                        <img src="{% static '/images/social-logo/3.svg' %}" alt="">
+                    </a>
+                    <a target="_blank" href="https://www.facebook.com/chikitsak.org">
+
+                        <img src="{% static '/images/social-logo/4.svg' %}" alt="">
+                    </a>
+                    <a href="">
+
+                        <img src="{% static '/images/social-logo/5.svg' %}" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </footer>
+
+    </div>
+
+
+</body>
+
+<script src="{% static '/js/script.js' %}"></script>
+
+</html>

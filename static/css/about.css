@@ -1,0 +1,317 @@
+.active {
+    border-radius: 2%;
+}
+.btn-main a{
+color: white;
+}
+
+
+.about-main {
+    margin-top: 5em;
+    padding: 1.4em;
+}
+
+
+
+
+/* font-sizes */
+.a-small-text {
+    font-size: .8rem;
+    color: rgba(0, 0, 0, 0.6);
+}
+span{
+    margin-top: .5em;
+}
+.a-name {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.a-text {
+    font-size: 1.1rem;
+
+}
+
+.a-heading {
+    font-weight: 600;
+    font-size: 1.9rem;
+    line-height: 1.3em;
+
+}
+
+/* mission container */
+.about-mission {
+    padding: .5em;
+
+    height: 70vh;
+}
+
+.a-mission-heading {
+    margin: .2em 0 0.6em 0;
+}
+
+.a-mission-text {
+    font-size: 1.3rem;
+    line-height: 1.4em;
+}
+
+
+/* approach container */
+.a-approach {
+    padding: .5em;
+    line-height: 1.5em;
+
+border-bottom: .5px solid lightgrey;
+
+    height: 100vh;
+    margin-top: 2em;
+}
+
+.a-image img {
+    height: 45vh;
+    margin: 1em 0;
+}
+
+.a-content p:nth-child(1) {
+    margin-bottom: .8em;
+}
+
+.a-content p:nth-child(2) {
+    line-height: 1.5em;
+    font-size: 1.1rem;
+}
+
+.a-content p:nth-child(3) {
+    margin-top: 1em;
+    line-height: 1.5em;
+    font-size: 1.1rem;
+}
+
+/* values container */
+.a-values {
+    padding: .5em;
+    margin-top: 3em;
+    line-height: 1.5em;
+    height: 100vh;
+}
+
+.a-values p {
+    margin: 1em 0;
+}
+
+
+/* founder container */
+.founders {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    padding: .5em;
+    line-height: 1.5em;
+    height: 160vh;
+border-bottom: .5px solid lightgrey;
+
+}
+
+.founders p {
+    margin: 1em 0;
+}
+
+.a-name {
+    margin-bottom: 0 !important;
+}
+
+.a-role {
+    margin-top: 0 !important;
+}
+
+.founder-info {
+    font-size: .9em;
+    line-height: 1.4em;
+}
+
+.founder-photo{
+    height: 25vh;
+    margin: 1em 0;
+}
+.founder-linkedin-logo{
+    margin-top: 2vh;
+    display: flex;
+}
+.founder-linkedin-logo img{
+    height: 3vh;
+    margin-left: .4vw;
+}
+
+/* team container */
+.team {
+    padding: .5em;
+    line-height: 1.5em;
+border-bottom: .5px solid lightgrey;
+    height: 210vh;
+
+}
+
+.team p {
+    margin: 1em 0;
+}
+
+.team-card img {
+    height: 25vh;
+    margin: 1em 0;
+}
+
+.team-card .a-name {
+    margin: 0 !important;
+}
+
+.team-card .role {
+    margin: 0 !important;
+}
+
+/* advisor container */
+
+.advisors {
+    padding: .5em;
+    line-height: 1.5em;
+border-bottom: .5px solid lightgrey;
+
+    margin-top: 2em;
+    height: 100vh;
+
+}
+
+.advisors .a-heading {
+    margin: 1em 0;
+}
+
+.advisor-card img {
+    height: 22vh;
+    border-radius: 50%;
+    margin: 1em 0;
+}
+.rony-sir-img{
+    width: 42vw;
+}
+
+
+
+/* large screen */
+@media screen and (min-width: 900px) {
+    .about-main {
+        width: 80vw;
+        margin: 0 auto;
+        margin-top: 6em;
+    }
+
+    .about-mission {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        height: 50vh;
+    }
+
+    .ab-1 {
+        grid-column: 1/span 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    /* font styling */
+    .a-small-text {
+        font-size: 1em;
+        color: rgba(0, 0, 0, 0.6);
+    }
+
+    .a-name {
+        font-size: 1.4rem;
+        font-weight: 700;
+    }
+
+    .a-text {
+        font-size: 1.3rem;
+
+    }
+
+    .a-heading {
+        font-weight: 600;
+        font-size: 2.5rem;
+        line-height: 1.3em;
+
+    }
+
+    /* approach */
+
+    .a-approach {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* justify-content: start; */
+        align-items: center;
+    }
+
+    /* value card */
+    .a-value-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2em;
+    }
+
+    /* founders */
+    .founders {
+        border-top: .5px solid lightgray;
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        height: 110vh;
+    }
+
+    .fon-2 {
+        grid-column: 4/span 4;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0;
+    }
+
+    .founder-card {
+
+        padding: 0;
+    }
+
+    .founder-info {
+        font-size: 1em;
+        width: 92%;
+    }
+    .rony-sir-img {
+        width: 10vw;
+    }
+
+    .team {
+        border-top: .5px solid lightgray;
+
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        height: 100vh;
+    }
+
+    .t2 {
+        grid-column: 4/ span 4;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .advisors {
+        border-top: .5px solid lightgray;
+        border-bottom: .5px solid lightgray;
+
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        height: 70vh;
+    }
+
+    .a2 {
+        grid-column: 4/span 4;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+
+
+}

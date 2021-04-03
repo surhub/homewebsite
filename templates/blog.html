@@ -1,0 +1,253 @@
+ <!DOCTYPE html>
+ <html lang="en">
+
+ <head>
+     {% load static %}
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <link rel="shortcut icon" type="image/x-icon" href="{% static '/images/logo/crop-logo.png' %}" />
+     <title>Your Caretaker-Chikitsak</title>
+
+     <link rel="stylesheet" href=" {% static '/css/style.css' %}">
+     <link rel="stylesheet" href=" {% static '/css/blog.css' %}">
+ </head>
+
+ <body>
+     <!-- header -->
+
+     <header>
+         <div class="logo">
+             <a class="logo" href="/">
+                 <div class="logo-image">
+                     <img class="i-1" src="{% static '/images/logo/logoji.JPG' %}" alt="image">
+                     <p>Chikitsak</p>
+             </a>
+         </div>
+         <div class="burger">
+             <div class="line"></div>
+             <div class="line"></div>
+             <div class="line"></div>
+         </div>
+         </div>
+
+         <!-- nav-bar -->
+         <nav>
+             <ul class="nav-ul nav-display">
+                 <li><a class="f-nav" href="/about">About us</a></li>
+                 <li><a href="/blog">Blog</a></li>
+                 <li><a href="/work">Pages</a></li>
+                 <li><a class="btn-nav" href="/work">Save my spot</a></li>
+             </ul>
+         </nav>
+     </header>
+
+     <!-- main-section blog -->
+     <section class="big-main-blog">
+
+         <section class="blog-section-image">
+
+             <img src="{% static '/images/assests/blog-photo.png' %}" alt="blog photo">
+         </section>
+         <section class="main-blog">
+             <div class="blog-heading">
+                 <h1>
+                     Collaboration in healthcare: much more than faxes and phone calls!
+                 </h1>
+             </div>
+             <div class="blog-content">
+                 <div class="author blog-user">
+                     <div>
+                         <img src="{% static '/images/assests/blog-user.png' %}" alt="image">
+                     </div>
+                     <div class="a-info">
+                         <p>Sanjana Agarwal</p>
+                         <p>20 October 2020</p>
+                     </div>
+                 </div>
+                 <div class="blog-text">
+
+                     <p class="blog-p-text">
+                         If you're facing a significant illness or stressful life change, you don't have to go it alone.
+                         A
+                         support group can help. Find out how to choose the right one.
+                     </p>
+                     <p class="blog-p-text">Support groups bring together people who are going through or have gone
+                         through similar
+                         experiences.
+                         For example, this common ground might be cancer, chronic medical conditions, addiction, grief,
+                         or
+                         caregiving.</p>
+                     <p class="blog-p-text">
+                         A support group provides an opportunity for people to share personal experiences and feelings,
+                         coping strategies, or firsthand information about diseases or treatments.
+                     </p>
+                     <p class="blog-p-text">For many people, a health-related support group may fill a gap between
+                         medical treatment and the
+                         need for emotional support. A person's relationship with a doctor or other medical personnel
+                         may
+                         not provide adequate emotional support. A person's family and friends may not understand the
+                         impact
+                         of a disease or treatment. A support group among people with shared experiences may function as
+                         a
+                         bridge between medical and emotional needs.</p>
+
+                     <h1 class="blog-text-heading">
+                         Structure of support groups
+                     </h1>
+                     <p class="blog-p-text">Support groups may be offered by a nonprofit advocacy organization, clinic,
+                         hospital, or
+                         community
+                         organization. They also may be independent of any organization and run entirely by group
+                         members.
+                         Formats of support groups vary, including face-to-face meetings, teleconferences, or online
+                         communities. A layperson — someone who shares or has shared the group's everyday experience —
+                         often
+                         leads a support group. Still, a group also may be led by a professional facilitator, such as a
+                         nurse, social worker, or psychologist.</p>
+                     <p class="blog-p-text">Some support groups may offer educational opportunities, such as a guest
+                         doctor, psychologist,
+                         nurse, or social worker, to discuss a topic related to the group's needs.</p>
+                     <p class="blog-p-text">Support groups are not the same as group therapy sessions. Group therapy is
+                         a specific type of
+                         mental health treatment that brings together several people with similar conditions under a
+                         licensed mental health care provider's guidance.</p>
+
+                     <h1 class="blog-text-heading">
+                         Benefits of support groups
+                     </h1>
+                     <p class="blog-p-text">The shared experience among members of a support group often means they have
+                         similar feelings,
+                         worries, everyday problems, treatment decisions, or treatment side effects. Participating in a
+                         group provides you with an opportunity to be with people who are likely to have a common
+                         purpose
+                         and possible to understand one another.</p>
+                     <p class="blog-p-text p-heading">Benefits of participating in a support group may include:</p>
+                     <ul class="blog-ul">
+                         <li> <span>.</span> less lonely, isolated, or judged</li>
+                         <li> <span>.</span>Reducing distress, depression, anxiety, or fatigue</li>
+                         <li> <span>.</span>Talking openly and honestly about your feelings</li>
+                         <li> <span>.</span>Improving skills to cope with challenges</li>
+                         <li> <span>.</span>Staying motivated to manage chronic conditions or stick to treatment plans
+                         </li>
+                         <li> <span>.</span>Gaining a sense of empowerment, control, or hope</li>
+                         <li> <span>.</span>Enhancing understanding of a disease and your own experience with it</li>
+                         <li> <span>.</span>Getting practical feedback about treatment options</li>
+                         <li> <span>.</span>Learning about health, economic or social resources</li>
+                     </ul>
+                     <p class="blog-p-text p-heading p-padding">Benefits of online groups include:</p>
+                     <ul class="blog-ul">
+                         <li> <span>.</span>More frequent or flexible participation
+                         </li>
+                         <li> <span>.</span>Opportunities for people who may not have local face-to-face support groups
+                         </li>
+                         <li> <span>.</span>A degree of privacy or anonymity</li>
+                     </ul>
+
+                     <h1 class="blog-text-heading">Getting the most out of a support group</h1>
+                     <p class="blog-p-text">When you join a new support group, you may be nervous about sharing personal
+                         issues with people
+                         you
+                         don't know. At first, you may benefit from simply listening. Over time, however, contributing
+                         your
+                         ideas and experiences may help you get more out of a support group.
+                         Try a support group for a few weeks. If it doesn't feel like a good fit for you, consider a
+                         different support group or a separate support group format.</p>
+                     <p class="blog-p-text">Remember that a support group isn't a substitute for regular medical care.
+                         Let your doctor know
+                         that you're participating in a support group. If you don't think a support group is appropriate
+                         for you, but you need help coping with your condition or situation, talk to your doctor about
+                         counseling or other therapy types.</p>
+                 </div>
+             </div>
+         </section>
+     </section>
+
+     <!-- footer section -->
+     <footer>
+         <div class="container f-section">
+             <section class="f1">
+
+                 <div class="f-image">
+
+                     <img class="i-1" src="{% static '/images/logo/logoji.JPG' %}" alt="image">
+                 </div>
+                 <div class="f-content">
+                     <p class="small-text">STAY INFORMED</p>
+                     <p class="supporting-text">Receive news, articles and events by email to stay informed of progress.
+                     </p>
+                     <input type="text" name="" id="" placeholder="Email address">
+                     <div class="links">
+                         <ul class="footer-ul">
+                             <li><a href="/about">About us </a></li>
+                             <li><a href="/work">Contact us</a></li>
+                             <li><a href="/work">Pages</a></li>
+                             <li><a href="/blog">Blog</a></li>
+                         </ul>
+                     </div>
+                 </div>
+
+             </section>
+
+             <a href="#">
+                 <section class="f2">
+                     <div class="b-sample">
+                         <p class="small-text">FEATURED POST</p>
+
+                         <img src="{% static '/images/assests/blog-photo.png' %}" alt="image">
+                         <h2>Collaboration in healthcare: much more than faxes and phone calls!</h2>
+                         <p class="supporting-text">What first comes to mind when we speak of interprofessional
+                             collaboration
+                             is a group of
+                             healthcare professionals coming together to talk about a common patient.</p>
+                     </div>
+                     <div class="author">
+                         <div>
+                             <img src="{% static '/images/assests/blog-user.png' %}" alt="image">
+                         </div>
+                         <div class="a-info">
+                             <p>Sanjana Agarwal</p>
+                             <p>20 October 2020</p>
+                         </div>
+                     </div>
+                 </section>
+             </a>
+             <div class="copy">
+                 <div class="c-text">
+                     Copyrights &#169 2020 Chikitsak
+                 </div>
+                 <div class="media">
+                     <a target="_blank" href="https://www.instagram.com/chikitsak.health/">
+                         <img src="{% static '/images/social-logo/1.svg' %}" alt="">
+                     </a>
+                     <a target="_blank" href="https://twitter.com/Chikitsakhealth">
+                         <img src="{% static '/images/social-logo/2.svg' %}" alt="">
+                     </a>
+                     <a target="_blank" href="https://www.linkedin.com/company/chikitsakhealth">
+
+                         <img src="{% static '/images/social-logo/3.svg' %}" alt="">
+                     </a>
+                     <a target="_blank" href="https://www.facebook.com/chikitsak.org">
+
+                         <img src="{% static '/images/social-logo/4.svg' %}" alt="">
+                     </a>
+                     <a target="_blank" href="">
+
+                         <img src="{% static '/images/social-logo/5.svg' %}" alt="">
+                     </a>
+
+                 </div>
+             </div>
+         </div>
+
+
+
+
+     </footer>
+     </div>
+ </body>
+
+
+ <script src="{% static '/js/script.js' %}"></script>
+
+ </html>
